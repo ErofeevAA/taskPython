@@ -1,4 +1,3 @@
-# спроси про input.split[i]
 def get_num_from_console(n: int):
     for j in range(n):
         tmp = input().split()
