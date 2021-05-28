@@ -14,6 +14,8 @@ def password_level(password: str):
         flag_up = True
     if flag_up == flag_low == flag_num:
         return "Надёжный пароль"
+    if (not flag_up and not flag_low) or (not flag_num and not flag_low) or (not flag_num and not flag_up):
+        return "Ненадёжный пароль"
     return "Слабый пароль"
 
 
