@@ -12,8 +12,8 @@ def get_angle(x1, y1, x2, y2):
 
 def rotate(x, y, angle):
     angle = math.radians(angle)
-    res_x = round(x * math.cos(angle) + y * math.sin(angle))
-    res_y = round(-x * math.sin(angle) + y * math.cos(angle))
+    res_x = x * math.cos(angle) + y * math.sin(angle)
+    res_y = -x * math.sin(angle) + y * math.cos(angle)
     return res_x, res_y
 
 
