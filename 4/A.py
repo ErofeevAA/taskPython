@@ -10,6 +10,6 @@ flag_list = []
 
 for i in range(all_sum):
     group_sum = int(input())
-    flag_list.append(any(get_num_from_console(group_sum)))
+    flag_list.append(any(list(get_num_from_console(group_sum))))
 
 print('ДА' if all(flag_list) else 'НЕТ')
