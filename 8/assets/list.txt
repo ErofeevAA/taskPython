@@ -1,0 +1,13 @@
+6
+сыр с опарышами
+cheese_with_maggots.jpg
+куриная голень
+drumstick.jpg
+салат с дождевыми червями
+earthworm.jpg
+водка с мышами
+vodka.jpg
+сороконожка
+centipede.jpg
+хлеб
+bread.jpg
